@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/screens/DetailScreen/detail_screen.dart';
+import 'package:myapp/screens/inscription_screen.dart';
 import 'screens/HomeScreen/home_screen.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       
         primarySwatch: Colors.blue,
       ),
-      home: GameDetail(),
+      home: InscriptionScreen(),
     );
   }
 }
